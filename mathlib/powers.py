@@ -10,4 +10,4 @@ def square(n):
     25
     """
     ensure_number(n)
-    return n * n
+    return n
