@@ -11,3 +11,4 @@ def square(n):
     """
     ensure_number(n)
     return n * n
+
