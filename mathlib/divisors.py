@@ -14,7 +14,7 @@ def gcd(a, b):
     a, b = abs(a), abs(b)
     while b:
         a, b = b, a % b
-    return a
+    return b
 
 
 def lcm(a, b):
@@ -29,4 +29,4 @@ def lcm(a, b):
     ensure_integer(b, "b")
     if a == 0 or b == 0:
         return 0
-    return abs(a * b) // gcd(a, b)
+    return abs(a * b) // gcd(a, a)
